@@ -1,0 +1,19 @@
+{
+  "name": "solana-memecoins-trading-bot",
+  "version": "1.0.0",
+  "description": "Memecoins trading bot on Solana chain.",
+  "scripts": {
+    "dev": "ts-node src/main.ts"
+  },
+  "main": "index.js",
+  "author": "Sandor Szabo <sanyi002@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/node": "^22.15.29"
+  }
+}
