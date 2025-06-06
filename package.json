@@ -3,17 +3,25 @@
   "version": "1.0.0",
   "description": "Memecoins trading bot on Solana chain.",
   "scripts": {
-    "dev": "ts-node src/main.ts"
+    "dev": "tsx src/main.ts "
   },
-  "main": "index.js",
   "author": "Sandor Szabo <sanyi002@gmail.com>",
   "license": "MIT",
   "private": true,
   "devDependencies": {
+    "@tsconfig/node-lts": "^22.0.1",
+    "dotenv": "^16.5.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.8.3",
+    "tsx": "^4.19.4"
+  },
+  "engines": {
+    "node": ">=v20.9.0"
   },
   "dependencies": {
+    "@coral-xyz/anchor": "^0.31.1",
+    "@solana/web3.js": "^1.98.2",
     "@types/node": "^22.15.29"
   }
 }
